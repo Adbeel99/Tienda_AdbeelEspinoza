@@ -84,14 +84,12 @@
 	  <groupId>io.ebean</groupId>
 	  <artifactId>jakarta-persistence-api</artifactId>
 	  <version>3.1</version>
-	  <scope>test</scope>
 	  <type>jar</type>
 	 </dependency>
 	 <dependency>
 	  <groupId>jakarta.platform</groupId>
 	  <artifactId>jakarta.jakartaee-web-api</artifactId>
 	  <version>10.0.0</version>
-	  <scope>test</scope>
 	  <type>jar</type>
 	 </dependency>
 	 <dependency>
@@ -101,6 +99,31 @@
 	  <scope>test</scope>
 	  <type>jar</type>
 	 </dependency>
+          <dependency>
+            <groupId>com.google.firebase</groupId>
+            <artifactId>firebase-admin</artifactId>
+            <version>9.5.0</version>
+            </dependency>
+                  <dependency>
+                    <groupId>com.mysql</groupId>
+                    <artifactId>mysql-connector-j</artifactId>
+                    <scope>runtime</scope>
+                </dependency>
+                <dependency>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-data-jpa</artifactId>            
+                </dependency>
+                 <dependency>
+            <groupId>com.google.firebase</groupId>
+            <artifactId>firebase-admin</artifactId>
+            <version>9.5.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate.validator</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+
 	</dependencies>
 
 	<build>
