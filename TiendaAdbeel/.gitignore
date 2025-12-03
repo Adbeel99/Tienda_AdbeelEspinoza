@@ -28,7 +28,7 @@ target/
 build/
 !**/src/main/**/build/
 !**/src/test/**/build/
-/TiendaAdbeel/src/main/resources/firebase
+TiendaAdbeel/src/main/resources/firebase/tienda-5c7c7-firebase-adminsdk-fbsvc-a457a56a63.json
 
 ### VS Code ###
 .vscode/
