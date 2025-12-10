@@ -17,9 +17,9 @@ import lombok.Data;
 
 @Data
 @Entity
-@Table(name = "producto")
+@Table(name = "produto")
 @SuppressWarnings("unused")
-public class Producto implements Serializable{
+public class Produto implements Serializable{
     private static final long serialVersionUID = 1L;
 
     @Id

@@ -3,13 +3,23 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package Tienda.demo.domain;
-import jakarta.persistence.*;
 import java.io.Serializable;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
+import jakarta.persistence.Table;
 import lombok.Data;
 
 @Data
 @Entity
 @Table(name = "ruta")
+@SuppressWarnings("unused")
 public class Ruta implements Serializable {
     // Se recomienda añadir un serialVersionUID
     private static final long serialVersionUID = 1L;

@@ -4,13 +4,13 @@
  */
 package Tienda.demo.controller;
 
-import Tienda.demo.service.CategoriaService;
-import Tienda.demo.service.ProductoService;
-import java.util.stream.Collectors;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+
+import Tienda.demo.service.CategoriaService;
+import Tienda.demo.service.ProductoService;
 
 @Controller
 public class IndexController {

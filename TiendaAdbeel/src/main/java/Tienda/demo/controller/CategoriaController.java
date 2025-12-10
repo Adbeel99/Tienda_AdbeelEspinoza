@@ -4,11 +4,9 @@
  */
 package Tienda.demo.controller;
 
-import Tienda.demo.domain.Categoria;
-import Tienda.demo.service.CategoriaService;
 import java.util.Locale;
 import java.util.Optional;
-import jakarta.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
 import org.springframework.stereotype.Controller;
@@ -20,6 +18,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+
+import Tienda.demo.domain.Categoria;
+import Tienda.demo.service.CategoriaService;
+import jakarta.validation.Valid;
 
 @Controller
 @RequestMapping("/categoria")
